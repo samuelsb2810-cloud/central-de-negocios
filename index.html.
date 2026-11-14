@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sites profissionais e automações com inteligência artificial.">
+<title>Central de Negócios | CN</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;color:#172438}
+header{background:#0b1422;color:white;padding:22px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:20px;font-weight:bold;color:#62d9e8}
+nav a{color:white;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{background:#0b1422;color:white;padding:110px 8%;min-height:510px;display:flex;align-items:center}
+.hero div{max-width:720px}
+.hero small{color:#62d9e8;letter-spacing:2px;font-weight:bold}
+h1{font-size:clamp(38px,6vw,65px);margin:25px 0;line-height:1.1}
+h1 span,h2 span{color:#20aabe}
+p{line-height:1.8;color:#718095}
+.hero p{color:#bdc9d5;font-size:17px;max-width:600px}
+.btn{display:inline-block;margin-top:30px;padding:16px 25px;background:#62d9e8;color:#0b1422;text-decoration:none;font-weight:bold;border-radius:5px}
+section{padding:85px 8%}
+h2{font-size:40px;margin:18px 0}
+.subtitulo{max-width:650px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:25px}
+.card{padding:35px;border:1px solid #e4eaf0;border-radius:10px}
+.card h3{font-size:23px;margin:20px 0}
+.card p{margin-bottom:20px}
+.card a{color:#159bb0;text-decoration:none;font-weight:bold}
+.card.dark{background:#0b1422;color:white}
+.card.dark p{color:#bdc9d5}
+.about{background:#0b1422;color:white}
+.about p{color:#bdc9d5;max-width:650px}
+.steps{background:#f4f7fa}
+.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:35px}
+.step{background:white;padding:25px;border-radius:8px}
+.step b{font-size:25px;color:#159bb0}
+.step h3{margin:15px 0}
+.contact{text-align:center;background:#e9f8fa}
+.contact p{max-width:600px;margin:auto}
+footer{background:#080e18;color:white;text-align:center;padding:35px}
+footer p{color:#bdc9d5;margin-top:10px}
+@media(max-width:700px){
+header{padding:20px;flex-wrap:wrap}
+nav{width:100%;margin-top:20px}
+nav a{margin:0 12px 0 0}
+.hero{padding:80px 25px}
+section{padding:65px 25px}
+.cards,.steps-grid{grid-template-columns:1fr}
+h2{font-size:33px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">CN | CENTRAL DE NEGÓCIOS</div>
+<nav>
+<a href="#inicio">Início</a>
+<a href="#solucoes">Soluções</a>
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+</nav>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+<div>
+<small>TECNOLOGIA A FAVOR DO SEU NEGÓCIO</small>
+<h1>Sua empresa merece uma presença digital <span>que trabalha por ela.</span></h1>
+<p>Criamos sites profissionais e automações com inteligência artificial para empresas que desejam crescer, conquistar clientes e trabalhar com mais eficiência.</p>
+<a class="btn" href="#contato">Conheça nossas soluções ↗</a>
+</div>
+</section>
+
+<section id="solucoes">
+<small>O QUE FAZEMOS</small>
+<h2>Soluções para <span>avançar.</span></h2>
+<p class="subtitulo">Tecnologia, estratégia e inovação para transformar a presença digital e os processos da sua empresa.</p>
+
+<div class="cards">
+<div class="card">
+<h3>🌐 Sites profissionais</h3>
+<p>Criamos sites modernos, rápidos e adaptados para celulares. Sua empresa ganha uma presença digital profissional e uma vitrine disponível 24 horas.</p>
+<a href="#contato">Quero meu site →</a>
+</div>
+
+<div class="card dark">
+<h3>🤖 Automações com IA</h3>
+<p>Automatizamos tarefas e processos para reduzir trabalho repetitivo, melhorar atendimentos e liberar tempo para sua empresa.</p>
+<a href="#contato">Quero automatizar →</a>
+</div>
+</div>
+</section>
+
+<section class="about" id="sobre">
+<small>CONHEÇA A CN</small>
+<h2>Transformamos tecnologia em <span>oportunidades.</span></h2>
+<p>A Central de Negócios é especializada em criação de sites profissionais e automações com inteligência artificial. Nosso objetivo é ajudar empresas a melhorar sua presença digital e otimizar seus processos com soluções práticas e eficientes.</p>
+</section>
+
+<section class="steps">
+<small>NOSSO PROCESSO</small>
+<h2>Como funciona?</h2>
+<div class="steps-grid">
+<div class="step"><b>01</b><h3>Entendemos</h3><p>Conhecemos suas necessidades e objetivos.</p></div>
+<div class="step"><b>02</b><h3>Planejamos</h3><p>Definimos a melhor solução para seu negócio.</p></div>
+<div class="step"><b>03</b><h3>Desenvolvemos</h3><p>Criamos seu projeto digital.</p></div>
+<div class="step"><b>04</b><h3>Entregamos</h3><p>Colocamos a solução em funcionamento.</p></div>
+</div>
+</section>
+
+<section class="contact" id="contato">
+<small>VAMOS CONVERSAR?</small>
+<h2>Seu próximo passo começa <span>aqui.</span></h2>
+<p>Conte o que sua empresa precisa. Vamos encontrar uma solução adequada para seus objetivos.</p>
+<a class="btn" href="https://wa.me/SEUNUMERO">Falar pelo WhatsApp ↗</a>
+</section>
+
+</main>
+
+<footer>
+<div class="logo">CN | CENTRAL DE NEGÓCIOS</div>
+<p>Sites profissionais e automações com inteligência artificial.</p>
+<p>© <span id="year"></span> Central de Negócios.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+
+</body>
+</html>
