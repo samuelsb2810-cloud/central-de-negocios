@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samuelsb2810-cloud.github.io/central-de-negocios/sitemap.xml
