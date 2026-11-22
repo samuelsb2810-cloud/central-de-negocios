@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central de Negócios | Sites e Inteligência Artificial</title>
+<meta name="description" content="Criação de sites profissionais e automações inteligentes para empresas. Central de Negócios.">
 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #07111f;
+    --bg2: #0b1930;
+    --blue: #00b7ff;
+    --cyan: #00f0ff;
+    --purple: #7857ff;
+    --white: #ffffff;
+    --text: #dce7f5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--white);
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(7,17,31,0.95);
+    border-bottom: 1px solid rgba(0,183,255,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.logo span {
+    color: var(--cyan);
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--cyan);
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 8%;
+    text-align: center;
+    background:
+    radial-gradient(circle at 20% 20%, rgba(0,183,255,0.15), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(120,87,255,0.2), transparent 40%),
+    linear-gradient(135deg, #07111f, #0b1930);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: clamp(35px, 6vw, 65px);
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    background: linear-gradient(90deg, var(--cyan), var(--blue), var(--purple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    color: var(--text);
+    font-size: 18px;
+    max-width: 750px;
+    margin: auto auto 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    color: #06111f;
+    background: linear-gradient(90deg, var(--cyan), var(--blue));
+    box-shadow: 0 0 25px rgba(0,183,255,0.25);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 35px rgba(0,183,255,0.5);
+}
+
+section {
+    padding: 80px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.section-title h2 span {
+    color: var(--cyan);
+}
+
+.section-title p {
+    color: var(--text);
+}
+
+.services {
+    background: var(--bg2);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.service-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(0,183,255,0.2);
+    padding: 35px 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--cyan);
+    box-shadow: 0 10px 35px rgba(0,183,255,0.1);
+}
+
+.service-card h3 {
+    color: var(--cyan);
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.service-card p {
+    color: var(--text);
+}
+
+</style>
+</head>
